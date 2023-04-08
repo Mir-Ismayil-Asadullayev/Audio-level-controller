@@ -1,0 +1,56 @@
+body {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.volume-level-block {
+    background: #fff;
+    box-shadow: 0 5px 20px #E4E4E6;
+    width: 500px;
+    padding: 40px;
+}
+
+.flex {
+    display: flex;
+}
+
+.volume-bar {
+    outline: 1px solid #cccccc;
+    flex-grow: 1;
+    height: 20px;
+    cursor: pointer;
+    margin: 0 20px;
+}
+
+.bar {
+    display: inline-block;
+    height: 100%;
+    background-color: #FFA310;
+}
+
+button {
+    border: 1px solid #cccccc;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #FFA310;
+    color: white;
+}
+
+.value,
+p {
+    margin: 25px;
+    text-align: center;
+    font-weight: bold;
+}
